@@ -1,3 +1,23 @@
 #gitignore
 .env
-HelloWorld
+# Compiled binaries
+*.exe     # Windowsの実行ファイル
+*.out     # Linux/macOSの実行ファイル
+*.app     # macOSのアプリケーションバンドル
+*.dll     # Windowsのダイナミックリンクライブラリ
+*.so      # Linuxの共有ライブラリ
+*.dylib   # macOSのダイナミックリンクライブラリ
+
+# Object files
+*.o
+*.obj
+
+# Debugging files
+*.pdb
+*.ilk
+
+# Build directories
+build/
+bin/
+Debug/
+Release/
